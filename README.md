@@ -9,6 +9,8 @@ This server does not support the default Keep-Alive feature of HTTP/1.1, and ins
 
 Usage
 ==============
-To run the proxy, you must specify a port number and run the following command:
+To run the proxy, you must run the following command and specify a port number:
+
     ruby proxy.rb <portnumber>
+
 The proxy will start running and will listen for requests on that port.
