@@ -5,7 +5,7 @@ require 'rubygems'
 require 'mixpanel'
 
 
-$MAX_LOAD        = 10000000 # maximum total cache memory
+$MAX_LOAD        = 25000000 # maximum total cache memory
 $MAX_OBJECT_SIZE = 1000000  # maximum memory per cache object
 $CACHE                      # global variable to store pages
 $MIXPANEL_API_TOKEN = "6f0649a0962f2c92d1e491fbba9169fa"
