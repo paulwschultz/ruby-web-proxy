@@ -21,7 +21,7 @@ end
 
 # Caches web page responses and evicts the least recently used 
 # pages to avoid exceeding maximum load.
-# Implemented using a Hash table that stores responses via url keys
+# Implemented using a Hash table that stores responses using url keys
 # The Cache makes use of a single semaphor which locks the cache
 # on all cache accesses, including both read and write.
 class Cache
@@ -96,8 +96,8 @@ end
 
 # This class models an HTTP request, along with its
 # associated metadata.
-# All attributes should be populated upon initialization
-# except for the request string, which is constructed upon instantiation.
+# All attributes should be provided upon initialization
+# except for the request string, which is constructed using the other attributes.
 class Request
   attr_accessor :host, :port, :filename, :url, :headers, :request_type, :request_string
   
