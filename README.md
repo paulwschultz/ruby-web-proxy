@@ -17,3 +17,7 @@ To run the proxy, you must run the following command and specify a port number:
     ruby proxy.rb <portnumber>
 
 The proxy will start running and will listen for requests on that port.
+
+About This Proxy
+==============
+This proxy was written for a programming challenge in fewer than 24 hours.
